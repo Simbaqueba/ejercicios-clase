@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Formulario" content="Contiene un hermoso Formulario que permite recoger datos y recoger datos. (?)">
+    <title>Formulario</title>
+</head>
+<body>
+    
+<form name="datos.png" action="./Pag 1.html" method="" autocomplete="on">
+    <h1> <img src="../assets/imagenes/undraw_tutorial_video_re_wepc.svg" width="90">  Datos Básicos</h1>
+
+
+    <label for="perfil">Describa su perfil</label><br>
+    <textarea rows="5" cols="35" id="perfil" name="perfil"></textarea><br><br>
+    <label for="tipo_identificacion">Tipo de identificacion:</label>
+    <select name="tipo_identificacion">
+        <option value="0" selected="">Seleccione un tipo de documento</option>
+    <optgroup label="Grupo 1">
+        <option value="NUIP">Número único de identificación (NUIP)</option>
+    </optgroup>
+    <optgroup label="Grupo 2">
+        <option value="TI">Tarjeta de Identidad</option>
+        <option value="CC">Cédula de Ciudadania</option>
+        <option value="CE">Cédula de Extranjeria</option>
+    </optgroup>
+    </select> <br><br>
+
+    <label for="identificacion"> Número de identificación:</label>
+    <input required="required" type="number" id="identificacion"> <br><br>
+    
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos"> <br><br>
+    
+    <label for="nombres">Nombres:</label>
+    <input type="text" id="nombres" name="nombres"> <br><br>
+    
+    <label for="genero">Género</label>
+    <input type="radio" id="generoF" name="genero">Femenino
+    <input type="radio" id="generoM" name="genero">Masculino<br><br>
+    
+    <label for="estado">Estado civil:</label>
+    <input type="radio" id="estadoS" name="estado" checked> Soltero
+    <input type="radio" id="estadoC" name="estado"> Casado
+    <input type="radio" id="estadoUL" name="estado"> Unión libre 
+    <input type="radio" id="estadoV" name="estado"> Viudo(a)  <br><br>
+
+    <label for="tel">Número telefónico de contacto:</label>
+    <input id="tel" type="number" name="number"> <br><br>
+    
+    <label for="direccion">Direección de tu residencia:</label>
+    <input type="text" id="direccion" name="direccion"> <br><br>
+    
+    <label for="correo">Correo electrónico de contacto</label>
+    <input id="correo" name="correo"> <br><br>
+
+    <label for="contrasena">Contraseña</label>
+    <input type="password" id="contrasena" name="contrasena"> <br><br>
+   
+    <label for="archivo">Sube aquí tu archivo</label>
+    <input type="file" id="archivo" name="archivo"> <br><br>
+
+    <button>Enviar</button> <button>Restablecer</button>
+    
+</form>
+
+    
+</body>
+</html>
