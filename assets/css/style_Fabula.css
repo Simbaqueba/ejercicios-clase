@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+/* ------------ */
+
+h1 {color: rgb(10, 177, 163); text-align: center;
+} 
+
+h2 {text-align: center; font-size: 100%;}
+label{color: purple; align-self: center; font-size: xx-large; font-weight: 900;
+    font-family: "Fuggles";
+}
+
+.Subtitulo{
+    font-size: x-small;
+    text-align: center;
+}
+
+img {float: center;
+    text-align: center;
+}
+
+h3 {color: rgb(10, 177, 163); text-align: right;
+}
