@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+body{
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+/* Reglas como afecta que afecta
+Selector donde afecta
+Propiedad "Atributo", separados por ;
+selector1, selector2 {prop1:valor; prop2:valor}
+----------------------------------------------- */
+
+
+h1 {color: rgb(15, 153, 107); text-align: center;
+} 
+h2 {text-align: center; font-size: 100%;}
+label{color: purple; align-self: center; font-size: xx-large; font-weight: 900;
+    font-family: "Fuggles";
+
+}
+
+.Subtitulo{
+    font-size: x-small;
+    text-align: center;
+}
+
+img {float: center;}
+
+h3 {color: rgb(15, 153, 107); text-align: right;
+}
