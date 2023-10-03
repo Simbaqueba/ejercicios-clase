@@ -37,6 +37,10 @@ body{
     font-family: 'Fredoka One', cursive;
 }
 
+.contenido p{
+    text-align: justify;
+}
+
 .personaje{
     width: 800px;
     background:linear-gradient(#F9A9FB,#F9D3FA);
