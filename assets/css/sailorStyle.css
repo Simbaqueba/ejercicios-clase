@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,500&display=swap');
+
+body{
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+.titulo{
+    align-items: center;
+}
+
+.titulo h1{
+    color: #fff;
+    text-align: left;
+    font-size: 40px;
+    text-shadow: 2px 0px 10px #c50000;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 20px;
+}
+
+.titulo img{
+    width: 150px;
+}
+
+.contenido {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.contenido h2{
+    font-family: 'Fredoka One', cursive;
+}
+
+.personaje{
+    width: 800px;
+    background:linear-gradient(#F9A9FB,#F9D3FA);
+    margin: 20px 0px;
+    padding:  30px 30px;
+    box-shadow: 3px 3px 7px #999999;
+    font-family: 'Muli', sans-serif;
+}
+
+.personaje img{
+    width: 150px;
+    border: 7px solid #FFF;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.personaje h2{
+    color: #e6dddd;
+    text-shadow: 2px 2px 7px #000000;
+}
+
+.personaje p{
+    text-align: justify;
+}
