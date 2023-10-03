@@ -1,0 +1,60 @@
+#main{
+    margin: 50px 100px 10px 70px;
+    /* margin-top: 100p; margin-right: 900px; margin-bottom: 10px; margin-left: 70px;  */
+}
+
+.esopo{
+    width: 800px;
+    background: #15A085;
+    margin: 50px auto;
+    border: 4px dashed #FCFC34;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.esopo h1{
+    text-align: left;
+    font-size: large;
+
+}
+
+.Biografia{
+    text-align: center;
+}
+
+.azul{
+    color:#819be3;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.titulo{
+    font-size: large;
+    font-weight: 900;
+    color:rgb(59, 7, 107);
+    text-align: center;
+
+}
+
+.Nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #320101;
+    text-transform: uppercase;
+}
+
+#derecha{
+    text-align: right;
+}
+
+h1{
+    color: blueviolet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.Homero{
+    font-style: italic;
+    text-decoration: underline;
+    color:#679c11;
+}
+

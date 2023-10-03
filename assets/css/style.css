@@ -12,6 +12,11 @@ selector1, selector2 {prop1:valor; prop2:valor}
 ----------------------------------------------- */
 body {background-image: url("../imagenes/U.jpg"); background-size: 100%; background-repeat: repeat-x;}
 
+body {
+    /* background-image: url("../imagenes/U.jpg");  */
+    background-size: 100%; background-repeat: repeat-x;}
+
+
 h1,h2,h3 {background-color: #280219; color: aquamarine; font-size: 70px; text-align: center;
     font-family: 'Courier New', Courier, monospace
 } 
@@ -22,3 +27,8 @@ label{color: purple; align-self: center; font-size: xx-large; font-weight: 900;
 form {background-color: #62a9a9ac; border-radius:10%}
 
 img {align-items: center;}
+
+.Titulo {
+    text-align: center;
+}
+
