@@ -45,5 +45,5 @@ while (cont == "si"){
     dinero = apuesta(dinero, valor, predic);
     console.log(`Tienes ${dinero}$`);
     cont = (prompt("¿Quieres seguir?"))
-
 }
+document.write(`<h1>Quedaste con ${dinero}<br></h1>`)
