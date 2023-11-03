@@ -1,0 +1,21 @@
+
+  input[type="radio"] {
+	display: none;
+  }
+  
+  label {
+	color: #444;
+  }
+  
+  .clasificacion {
+	direction: rtl;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+	color: #e9d208;
+  }
+  
+  input[type="radio"]:checked ~ label {
+	color: #e9d208;
+  }

@@ -32,4 +32,26 @@ let num1 = parseInt(prompt("Escribir el primer número"))
 console.log(`${num1}`);
 let num2 = parseInt(prompt("Escribir el primer número"))
 console.log(`${num2}`);
-document.write(`La suma es ${num1+num2}`);
+
+function sumar(num1, num2) {
+    return num1 + num2;
+}
+function resta(num1, num2) {
+    return num1 - num2;
+}
+function multi(num1, num2) {
+    return num1 * num2;
+}
+function div(num1, num2) {
+    return num1 / num2;
+}
+function div2(num1, num2) {
+    return num1 % num2;
+}
+
+document.write(`Suma: ${sumar(num1,num2)}<br>`)
+document.write(`Resta: ${resta(num1,num2)}<br>`)
+document.write(`Multiplicación: ${multi(num1,num2)}<br>`)
+document.write(`División: ${div(num1,num2)}<br>`)
+document.write(`Sobrante: ${div2(num1,num2)}<br>`)
+
